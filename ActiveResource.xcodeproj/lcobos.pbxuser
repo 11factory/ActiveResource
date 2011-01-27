@@ -31,7 +31,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecturePreference = i386;
 		activeBuildConfigurationName = Debug;
-		activeSDKPreference = iphonesimulator4.2;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = 37C6D2C61288116F0009BF4A /* Tests */;
 		addToTargets = (
 			37C6D2C61288116F0009BF4A /* Tests */,
@@ -117,6 +117,34 @@
 			3707960812940BB400B932F0 = 3707960812940BB400B932F0 /* PBXTextBookmark */;
 			372D000012F1CAF90060E620 /* PlistBookmark */ = 372D000012F1CAF90060E620 /* PlistBookmark */;
 			372D000112F1CAF90060E620 /* PBXTextBookmark */ = 372D000112F1CAF90060E620 /* PBXTextBookmark */;
+			372D000412F1D0240060E620 /* PBXTextBookmark */ = 372D000412F1D0240060E620 /* PBXTextBookmark */;
+			372D000512F1D0530060E620 /* PBXTextBookmark */ = 372D000512F1D0530060E620 /* PBXTextBookmark */;
+			372D000612F1D09B0060E620 /* PBXTextBookmark */ = 372D000612F1D09B0060E620 /* PBXTextBookmark */;
+			372D000712F1D0E90060E620 /* PBXTextBookmark */ = 372D000712F1D0E90060E620 /* PBXTextBookmark */;
+			372D000812F1D10F0060E620 /* PBXTextBookmark */ = 372D000812F1D10F0060E620 /* PBXTextBookmark */;
+			372D000912F1D1330060E620 /* PBXTextBookmark */ = 372D000912F1D1330060E620 /* PBXTextBookmark */;
+			372D000A12F1D1440060E620 /* PBXTextBookmark */ = 372D000A12F1D1440060E620 /* PBXTextBookmark */;
+			372D000B12F1D1490060E620 /* PBXTextBookmark */ = 372D000B12F1D1490060E620 /* PBXTextBookmark */;
+			372D000C12F1D14E0060E620 /* PBXTextBookmark */ = 372D000C12F1D14E0060E620 /* PBXTextBookmark */;
+			372D000D12F1D1600060E620 /* PBXTextBookmark */ = 372D000D12F1D1600060E620 /* PBXTextBookmark */;
+			372D000E12F1D1670060E620 /* PBXTextBookmark */ = 372D000E12F1D1670060E620 /* PBXTextBookmark */;
+			372D005412F1D1CE0060E620 /* PBXTextBookmark */ = 372D005412F1D1CE0060E620 /* PBXTextBookmark */;
+			372D005512F1D1CE0060E620 /* PBXTextBookmark */ = 372D005512F1D1CE0060E620 /* PBXTextBookmark */;
+			372D005612F1D1CE0060E620 /* PlistBookmark */ = 372D005612F1D1CE0060E620 /* PlistBookmark */;
+			372D005912F1D1FF0060E620 /* PlistBookmark */ = 372D005912F1D1FF0060E620 /* PlistBookmark */;
+			372D005C12F1D21B0060E620 /* PlistBookmark */ = 372D005C12F1D21B0060E620 /* PlistBookmark */;
+			372D005F12F1D22B0060E620 /* PlistBookmark */ = 372D005F12F1D22B0060E620 /* PlistBookmark */;
+			372D006212F1D23A0060E620 /* PlistBookmark */ = 372D006212F1D23A0060E620 /* PlistBookmark */;
+			372D006512F1D2560060E620 /* PlistBookmark */ = 372D006512F1D2560060E620 /* PlistBookmark */;
+			372D006812F1D2710060E620 /* PlistBookmark */ = 372D006812F1D2710060E620 /* PlistBookmark */;
+			372D006B12F1D2810060E620 /* PlistBookmark */ = 372D006B12F1D2810060E620 /* PlistBookmark */;
+			372D006E12F1D2A60060E620 /* PlistBookmark */ = 372D006E12F1D2A60060E620 /* PlistBookmark */;
+			372D006F12F1D2A60060E620 /* PBXTextBookmark */ = 372D006F12F1D2A60060E620 /* PBXTextBookmark */;
+			372D007012F1D2A60060E620 /* PBXTextBookmark */ = 372D007012F1D2A60060E620 /* PBXTextBookmark */;
+			372D007112F1D2A60060E620 /* PBXTextBookmark */ = 372D007112F1D2A60060E620 /* PBXTextBookmark */;
+			372D00A012F1D2F00060E620 /* PlistBookmark */ = 372D00A012F1D2F00060E620 /* PlistBookmark */;
+			372D00A112F1D2F00060E620 /* PBXBookmark */ = 372D00A112F1D2F00060E620 /* PBXBookmark */;
+			372D00A212F1D2F00060E620 /* PBXTextBookmark */ = 372D00A212F1D2F00060E620 /* PBXTextBookmark */;
 			372DFEF512F1C9F10060E620 = 372DFEF512F1C9F10060E620 /* PBXTextBookmark */;
 			372DFEF612F1C9F10060E620 = 372DFEF612F1C9F10060E620 /* PBXTextBookmark */;
 			372DFEF712F1C9F10060E620 = 372DFEF712F1C9F10060E620 /* PBXTextBookmark */;
@@ -210,6 +238,12 @@
 		vrLoc = 2683;
 	};
 	370795471293D2E000B932F0 /* ActiveResourceTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ActiveResourceTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ActiveResourceTest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {872, 586}}";
 			sepNavSelRange = "{133, 0}";
@@ -217,6 +251,12 @@
 		};
 	};
 	370795481293D2E000B932F0 /* ActiveResourceTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ActiveResourceTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ActiveResourceTest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1132, 1014}}";
 			sepNavSelRange = "{3008, 0}";
@@ -225,6 +265,12 @@
 		};
 	};
 	3707954F1293D76400B932F0 /* ActiveResource.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ActiveResource.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ActiveResource.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{762, 0}";
@@ -232,6 +278,12 @@
 		};
 	};
 	370795501293D76400B932F0 /* ActiveResource.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ActiveResource.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ActiveResource.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1013, 1599}}";
 			sepNavSelRange = "{3535, 0}";
@@ -239,6 +291,12 @@
 		};
 	};
 	370795531293D7B100B932F0 /* HttpEngine.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HttpEngine.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/HttpEngine.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {872, 586}}";
 			sepNavSelRange = "{185, 100}";
@@ -246,6 +304,12 @@
 		};
 	};
 	370795581293D80400B932F0 /* StringResource.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = StringResource.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/StringResource.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {986, 586}}";
 			sepNavSelRange = "{199, 0}";
@@ -253,6 +317,12 @@
 		};
 	};
 	370795591293D80400B932F0 /* StringResource.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = StringResource.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/StringResource.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1626, 866}}";
 			sepNavSelRange = "{29, 31}";
@@ -294,6 +364,12 @@
 		sourceTree = "<absolute>";
 	};
 	3707971412951EB000B932F0 /* StringRestRepresentationTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = StringRestRepresentationTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/StringRestRepresentationTest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {948, 586}}";
 			sepNavSelRange = "{121, 0}";
@@ -301,6 +377,12 @@
 		};
 	};
 	3707971512951EB000B932F0 /* StringRestRepresentationTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = StringRestRepresentationTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/StringRestRepresentationTest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1549, 866}}";
 			sepNavSelRange = "{264, 0}";
@@ -308,6 +390,12 @@
 		};
 	};
 	3707971A12951F9F00B932F0 /* StringRestRepresentation.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = StringRestRepresentation.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/StringRestRepresentation.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {948, 586}}";
 			sepNavSelRange = "{114, 0}";
@@ -315,6 +403,12 @@
 		};
 	};
 	3707971B12951F9F00B932F0 /* StringRestRepresentation.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = StringRestRepresentation.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/StringRestRepresentation.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1549, 866}}";
 			sepNavSelRange = "{182, 26}";
@@ -340,6 +434,330 @@
 		rLoc = 262;
 		rType = 0;
 		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000412F1D0240060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000512F1D0530060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000612F1D09B0060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000712F1D0E90060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000812F1D10F0060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000912F1D1330060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000A12F1D1440060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000B12F1D1490060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000C12F1D14E0060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000D12F1D1600060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D000E12F1D1670060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D001612F1D1850060E620 /* ActiveResource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {864, 368}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 762}";
+		};
+	};
+	372D002212F1D1850060E620 /* HttpResponse.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 865}";
+		};
+	};
+	372D002312F1D1850060E620 /* HttpResponseTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HttpResponseTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/Core/Http/HttpResponseTest.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {864, 368}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 117}";
+		};
+	};
+	372D002412F1D1850060E620 /* HttpResponseTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HttpResponseTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/Core/Http/HttpResponseTest.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 368}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 665}";
+		};
+	};
+	372D005412F1D1CE0060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	372D005512F1D1CE0060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D001612F1D1850060E620 /* ActiveResource.h */;
+		name = "ActiveResource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 762;
+		vrLoc = 0;
+	};
+	372D005612F1D1CE0060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D005912F1D1FF0060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D005C12F1D21B0060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D005F12F1D22B0060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D006212F1D23A0060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D006512F1D2560060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D006812F1D2710060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D006B12F1D2810060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D006E12F1D2A60060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D006F12F1D2A60060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D002412F1D1850060E620 /* HttpResponseTest.m */;
+		name = "HttpResponseTest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 0;
+	};
+	372D007012F1D2A60060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D002312F1D1850060E620 /* HttpResponseTest.h */;
+		name = "HttpResponseTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 117;
+		vrLoc = 0;
+	};
+	372D007112F1D2A60060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D002312F1D1850060E620 /* HttpResponseTest.h */;
+		name = "HttpResponseTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 117;
+		vrLoc = 0;
+	};
+	372D00A012F1D2F00060E620 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntegrationTests-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	372D00A112F1D2F00060E620 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 372D002212F1D1850060E620 /* HttpResponse.m */;
+	};
+	372D00A212F1D2F00060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D002212F1D1850060E620 /* HttpResponse.m */;
+		name = "HttpResponse.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 865;
 		vrLoc = 0;
 	};
 	372DFEF512F1C9F10060E620 /* PBXTextBookmark */ = {
@@ -411,6 +829,12 @@
 		vrLoc = 2780;
 	};
 	373620B3129BDD7D0004AE19 /* MultipleTypeResource.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MultipleTypeResource.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/MultipleTypeResource.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{440, 47}";
@@ -418,6 +842,12 @@
 		};
 	};
 	373620B4129BDD7D0004AE19 /* MultipleTypeResource.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MultipleTypeResource.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/MultipleTypeResource.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1626, 866}}";
 			sepNavSelRange = "{34, 37}";
@@ -425,6 +855,12 @@
 		};
 	};
 	37387E4F12BF848100AF98A6 /* ReflectedInstanceTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ReflectedInstanceTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ReflectedInstanceTest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1626, 866}}";
 			sepNavSelRange = "{123, 0}";
@@ -432,6 +868,12 @@
 		};
 	};
 	37387E5012BF848100AF98A6 /* ReflectedInstanceTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ReflectedInstanceTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ReflectedInstanceTest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{1399, 0}";
@@ -646,6 +1088,12 @@
 		vrLoc = 0;
 	};
 	37643D0412ACF05D000D0633 /* HttpRequestStubEngine.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HttpRequestStubEngine.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/HttpRequestStubEngine.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{452, 0}";
@@ -653,6 +1101,12 @@
 		};
 	};
 	37643D0512ACF05D000D0633 /* HttpRequestStubEngine.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HttpRequestStubEngine.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/HttpRequestStubEngine.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1125, 910}}";
 			sepNavSelRange = "{781, 0}";
@@ -660,6 +1114,12 @@
 		};
 	};
 	37643D6712AD1140000D0633 /* HttpResponse.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HttpResponse.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/HttpResponse.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1549, 866}}";
 			sepNavSelRange = "{394, 0}";
@@ -667,6 +1127,12 @@
 		};
 	};
 	37643D6812AD1140000D0633 /* HttpResponse.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HttpResponse.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/HttpResponse.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1216, 586}}";
 			sepNavSelRange = "{120, 72}";
@@ -764,6 +1230,12 @@
 		vrLoc = 0;
 	};
 	376DEE28129AE57D00D10C1B /* BasicHttpEngineTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BasicHttpEngineTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/BasicHttpEngineTest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {948, 586}}";
 			sepNavSelRange = "{116, 0}";
@@ -771,6 +1243,12 @@
 		};
 	};
 	376DEE29129AE57D00D10C1B /* BasicHttpEngineTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BasicHttpEngineTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/BasicHttpEngineTest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1512, 866}}";
 			sepNavSelRange = "{1852, 0}";
@@ -778,6 +1256,12 @@
 		};
 	};
 	376DEE2B129AE65700D10C1B /* BasicHttpEngine.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BasicHttpEngine.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/BasicHttpEngine.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {872, 586}}";
 			sepNavSelRange = "{82, 0}";
@@ -785,6 +1269,12 @@
 		};
 	};
 	376DEE2C129AE65700D10C1B /* BasicHttpEngine.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BasicHttpEngine.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/BasicHttpEngine.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {901, 676}}";
 			sepNavSelRange = "{2311, 0}";
@@ -802,6 +1292,12 @@
 		vrLoc = 0;
 	};
 	377CAAEA12ACC79500F68B1C /* FloatProperty.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FloatProperty.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/FloatProperty.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {967, 586}}";
 			sepNavSelRange = "{109, 0}";
@@ -809,6 +1305,12 @@
 		};
 	};
 	377CAAEB12ACC79500F68B1C /* FloatProperty.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FloatProperty.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/FloatProperty.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{59, 179}";
@@ -816,6 +1318,12 @@
 		};
 	};
 	377CAAF612ACC84800F68B1C /* BoolProperty.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = BoolProperty.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/BoolProperty.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {967, 586}}";
 			sepNavSelRange = "{108, 0}";
@@ -823,6 +1331,12 @@
 		};
 	};
 	377CAAF712ACC84800F68B1C /* BoolProperty.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = BoolProperty.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/BoolProperty.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {967, 586}}";
 			sepNavSelRange = "{57, 59}";
@@ -850,6 +1364,12 @@
 		vrLoc = 0;
 	};
 	377CAB0A12ACC94100F68B1C /* DefaultProperty.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = DefaultProperty.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/DefaultProperty.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {967, 586}}";
 			sepNavSelRange = "{63, 0}";
@@ -857,6 +1377,12 @@
 		};
 	};
 	377CAB0B12ACC94100F68B1C /* DefaultProperty.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = DefaultProperty.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/DefaultProperty.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{153, 0}";
@@ -884,6 +1410,12 @@
 		vrLoc = 0;
 	};
 	377CAB3F12ACCC1F00F68B1C /* ReflectedPropertyTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ReflectedPropertyTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ReflectedPropertyTest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1626, 866}}";
 			sepNavSelRange = "{63, 0}";
@@ -891,6 +1423,12 @@
 		};
 	};
 	377CAB4012ACCC1F00F68B1C /* ReflectedPropertyTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ReflectedPropertyTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ReflectedPropertyTest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1626, 866}}";
 			sepNavSelRange = "{1716, 0}";
@@ -908,6 +1446,12 @@
 		vrLoc = 0;
 	};
 	379781F512A63C46008C61CB /* ReflectedInstance.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ReflectedInstance.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ReflectedInstance.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{134, 170}";
@@ -915,6 +1459,12 @@
 		};
 	};
 	379781F612A63C46008C61CB /* ReflectedInstance.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ReflectedInstance.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ReflectedInstance.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {901, 702}}";
 			sepNavSelRange = "{1576, 0}";
@@ -922,6 +1472,12 @@
 		};
 	};
 	3797823912A64061008C61CB /* ReflectedProperty.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ReflectedProperty.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ReflectedProperty.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{223, 0}";
@@ -929,6 +1485,12 @@
 		};
 	};
 	3797823A12A64061008C61CB /* ReflectedProperty.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ReflectedProperty.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ReflectedProperty.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{1309, 118}";
@@ -1007,6 +1569,12 @@
 		vrLoc = 977;
 	};
 	37C0189212A7CF0C00166675 /* IntProperty.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = IntProperty.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntProperty.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {872, 586}}";
 			sepNavSelRange = "{113, 0}";
@@ -1014,6 +1582,12 @@
 		};
 	};
 	37C0189312A7CF0C00166675 /* IntProperty.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = IntProperty.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/IntProperty.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 368}}";
 			sepNavSelRange = "{123, 0}";
@@ -1036,6 +1610,11 @@
 	};
 	37C6D2C61288116F0009BF4A /* Tests */ = {
 		activeExec = 0;
+	};
+	37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 67}, {1222, 710}}";
+		};
 	};
 	37C6D3021288144E0009BF4A /* RunPlatformUnitTests.include */ = {
 		isa = PBXFileReference;
@@ -1127,6 +1706,12 @@
 		sourceTree = "<absolute>";
 	};
 	37D372B512AE189100E7A454 /* HttpResponseTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HttpResponseTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/HttpResponseTest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{111, 0}";
@@ -1134,6 +1719,12 @@
 		};
 	};
 	37D372B612AE189100E7A454 /* HttpResponseTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HttpResponseTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/HttpResponseTest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {922, 586}}";
 			sepNavSelRange = "{392, 19}";
@@ -1262,6 +1853,12 @@
 		vrLoc = 54;
 	};
 	37D88792129A494700C81ECA /* ResourceConfiguration.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ResourceConfiguration.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ResourceConfiguration.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {986, 586}}";
 			sepNavSelRange = "{432, 0}";
@@ -1269,6 +1866,12 @@
 		};
 	};
 	37D88793129A494700C81ECA /* ResourceConfiguration.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ResourceConfiguration.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ResourceConfiguration.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{794, 0}";
@@ -1276,6 +1879,12 @@
 		};
 	};
 	37D887D3129A529F00C81ECA /* ResourceConfigurationTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ResourceConfigurationTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ResourceConfigurationTest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {948, 586}}";
 			sepNavSelRange = "{126, 0}";
@@ -1283,6 +1892,12 @@
 		};
 	};
 	37D887D4129A529F00C81ECA /* ResourceConfigurationTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ResourceConfigurationTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/ResourceConfigurationTest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {872, 586}}";
 			sepNavSelRange = "{189, 21}";
@@ -1317,6 +1932,12 @@
 		sourceTree = "<absolute>";
 	};
 	37E1062312A7839B0037676D /* NSDateProperty.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSDateProperty.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/NSDateProperty.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{113, 0}";
@@ -1324,6 +1945,12 @@
 		};
 	};
 	37E1062412A7839B0037676D /* NSDateProperty.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = NSDateProperty.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/NSDateProperty.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {864, 586}}";
 			sepNavSelRange = "{29, 31}";
@@ -1368,6 +1995,12 @@
 		vrLoc = 0;
 	};
 	37F7ED371296B19E009DD5E4 /* JSONResponseTest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = JSONResponseTest.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/JSONResponseTest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {872, 586}}";
 			sepNavSelRange = "{112, 0}";
@@ -1375,6 +2008,12 @@
 		};
 	};
 	37F7ED381296B19E009DD5E4 /* JSONResponseTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = JSONResponseTest.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/JSONResponseTest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {908, 586}}";
 			sepNavSelRange = "{495, 0}";
@@ -1382,6 +2021,12 @@
 		};
 	};
 	37F7ED3D1296B1DE009DD5E4 /* JSONResponse.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = JSONResponse.h;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/JSONResponse.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1512, 866}}";
 			sepNavSelRange = "{110, 0}";
@@ -1389,6 +2034,12 @@
 		};
 	};
 	37F7ED3E1296B1DE009DD5E4 /* JSONResponse.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = JSONResponse.m;
+		path = "/Users/lcobos/Developpement/xcode-projects/ActiveResource/JSONResponse.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1512, 866}}";
 			sepNavSelRange = "{1242, 0}";
