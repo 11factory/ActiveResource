@@ -24,8 +24,8 @@
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{4895, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{4946, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{4996, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 5692}\";\n    s = 0;\n}";
 			sepNavIntBoundsRect = "{{0, 0}, {1048, 2587}}";
-			sepNavSelRange = "{1477, 52}";
-			sepNavVisRange = "{791, 1252}";
+			sepNavSelRange = "{1462, 277}";
+			sepNavVisRange = "{1046, 864}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -145,6 +145,13 @@
 			372D00A012F1D2F00060E620 /* PlistBookmark */ = 372D00A012F1D2F00060E620 /* PlistBookmark */;
 			372D00A112F1D2F00060E620 /* PBXBookmark */ = 372D00A112F1D2F00060E620 /* PBXBookmark */;
 			372D00A212F1D2F00060E620 /* PBXTextBookmark */ = 372D00A212F1D2F00060E620 /* PBXTextBookmark */;
+			372D00A612F1D4850060E620 /* PBXTextBookmark */ = 372D00A612F1D4850060E620 /* PBXTextBookmark */;
+			372D00A712F1D4850060E620 /* PBXTextBookmark */ = 372D00A712F1D4850060E620 /* PBXTextBookmark */;
+			372D00A812F1D48B0060E620 /* PBXTextBookmark */ = 372D00A812F1D48B0060E620 /* PBXTextBookmark */;
+			372D00A912F1D4E70060E620 /* PBXTextBookmark */ = 372D00A912F1D4E70060E620 /* PBXTextBookmark */;
+			372D00AA12F1D4E70060E620 /* PBXTextBookmark */ = 372D00AA12F1D4E70060E620 /* PBXTextBookmark */;
+			372D00AB12F1D4E70060E620 /* PBXTextBookmark */ = 372D00AB12F1D4E70060E620 /* PBXTextBookmark */;
+			372D00AC12F1D4F40060E620 /* PBXTextBookmark */ = 372D00AC12F1D4F40060E620 /* PBXTextBookmark */;
 			372DFEF512F1C9F10060E620 = 372DFEF512F1C9F10060E620 /* PBXTextBookmark */;
 			372DFEF612F1C9F10060E620 = 372DFEF612F1C9F10060E620 /* PBXTextBookmark */;
 			372DFEF712F1C9F10060E620 = 372DFEF712F1C9F10060E620 /* PBXTextBookmark */;
@@ -735,6 +742,13 @@
 		vrLen = 117;
 		vrLoc = 0;
 	};
+	372D007A12F1D2E00060E620 /* ActiveResourceTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1132, 1014}}";
+			sepNavSelRange = "{2628, 20}";
+			sepNavVisRange = "{2068, 1069}";
+		};
+	};
 	372D00A012F1D2F00060E620 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */;
@@ -759,6 +773,76 @@
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 0;
+	};
+	372D00A612F1D4850060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D002212F1D1850060E620 /* HttpResponse.m */;
+		name = "HttpResponse.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 865;
+		vrLoc = 0;
+	};
+	372D00A712F1D4850060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 52";
+		rLen = 277;
+		rLoc = 1462;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 1046;
+	};
+	372D00A812F1D48B0060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 52";
+		rLen = 277;
+		rLoc = 1462;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 1046;
+	};
+	372D00A912F1D4E70060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 52";
+		rLen = 277;
+		rLoc = 1462;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 1046;
+	};
+	372D00AA12F1D4E70060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D007A12F1D2E00060E620 /* ActiveResourceTest.m */;
+		name = "ActiveResourceTest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1141;
+		vrLoc = 0;
+	};
+	372D00AB12F1D4E70060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D007A12F1D2E00060E620 /* ActiveResourceTest.m */;
+		name = "ActiveResourceTest.m: 64";
+		rLen = 14;
+		rLoc = 2611;
+		rType = 0;
+		vrLen = 1069;
+		vrLoc = 2068;
+	};
+	372D00AC12F1D4F40060E620 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 372D007A12F1D2E00060E620 /* ActiveResourceTest.m */;
+		name = "ActiveResourceTest.m: 64";
+		rLen = 20;
+		rLoc = 2628;
+		rType = 0;
+		vrLen = 1069;
+		vrLoc = 2068;
 	};
 	372DFEF512F1C9F10060E620 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
