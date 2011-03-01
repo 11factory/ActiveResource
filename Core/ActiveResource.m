@@ -3,6 +3,8 @@
 #import "StringRestRepresentation.h"
 #import "BasicHttpEngine.h"
 #import "ReflectedInstance.h"
+#import <objc/runtime.h> 
+#import <objc/message.h>
 
 id<HttpEngine> currentHttpEngine;
 NSMutableDictionary *resourcesConfiguration;
@@ -120,6 +122,37 @@ NSMutableDictionary *resourcesConfiguration;
 	ReflectedInstance *reflectedInstance = [ReflectedInstance withInstance:self];
 	NSString *content = [self dictionaryToJSON:[reflectedInstance asDictionary]];
 	[[resourceClass httpEngine] postOnUrl:[resourceClass fullResourcePath] withContent:content withMimeType:[resourceClass getRepresentation]];
+}
+
+static id dynamicFindBy(id self, SEL selector, id firstParamValue, ...) {
+	NSString *selectorName = NSStringFromSelector(selector);
+	selectorName = [selectorName stringByReplacingOccurrencesOfString:@"findBy" withString:@""];
+	selectorName = [selectorName stringByReplacingOccurrencesOfString:@":" withString:@""];
+	NSArray *params = [selectorName componentsSeparatedByString:@"And"];
+	NSMutableArray *paramsValues = [NSMutableArray array];
+	id eachObject;
+	va_list argumentList;
+	if (firstParamValue) {
+		[paramsValues addObject:firstParamValue];
+		va_start(argumentList, firstParamValue);
+		while (eachObject = va_arg(argumentList, id))
+			[paramsValues addObject:eachObject];
+		va_end(argumentList);
+	}
+	NSString *resourceIdentifier = @"?";
+	int i = 0;
+	for (NSString *parameter in params) {
+		resourceIdentifier = [resourceIdentifier stringByAppendingFormat:@"%@=%@&", [parameter lowercaseString], [paramsValues objectAtIndex:i]];	
+		i++;
+	}
+	resourceIdentifier = [resourceIdentifier substringToIndex:[resourceIdentifier length] - 1];
+	return [self findById:resourceIdentifier];
+}
+
++ (BOOL)resolveClassMethod:(SEL)selector {
+	Class metaClass = objc_getMetaClass([NSStringFromClass([self class]) UTF8String]);
+	class_addMethod(metaClass, selector, (IMP)dynamicFindBy, "v@:@");
+	return TRUE;
 }
 
 @end
