@@ -124,28 +124,36 @@ NSMutableDictionary *resourcesConfiguration;
 	[[resourceClass httpEngine] postOnUrl:[resourceClass fullResourcePath] withContent:content withMimeType:[resourceClass getRepresentation]];
 }
 
-static id dynamicFindBy(id self, SEL selector, id firstParamValue, ...) {
++(NSArray *) parameterNamesInSelector:(SEL) selector {
 	NSString *selectorName = NSStringFromSelector(selector);
 	selectorName = [selectorName stringByReplacingOccurrencesOfString:@"findBy" withString:@""];
 	selectorName = [selectorName stringByReplacingOccurrencesOfString:@":" withString:@""];
-	NSArray *params = [selectorName componentsSeparatedByString:@"And"];
-	NSMutableArray *paramsValues = [NSMutableArray array];
+	return [selectorName componentsSeparatedByString:@"And"];
+}
+
++(NSString *) queryStringFromDictionary:(NSDictionary *)dictionary {
+	NSString *queryString = @"?";
+	for (NSString *parameterName in [[dictionary allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)]) {
+		queryString = [queryString stringByAppendingFormat:@"%@=%@&", [parameterName lowercaseString], [dictionary objectForKey:parameterName]];	
+	}
+	return [queryString substringToIndex:[queryString length] - 1];	
+}
+
+static id dynamicFindBy(id self, SEL selector, id firstParamValue, ...) {
+	NSArray *params = [self parameterNamesInSelector:selector];
+	NSMutableDictionary *paramsAndValues = [NSMutableDictionary dictionary];
 	id eachObject;
 	va_list argumentList;
 	if (firstParamValue) {
-		[paramsValues addObject:firstParamValue];
+		int i = 0;
+		[paramsAndValues setObject:firstParamValue forKey:[params objectAtIndex:i]];
 		va_start(argumentList, firstParamValue);
-		while (eachObject = va_arg(argumentList, id))
-			[paramsValues addObject:eachObject];
+		while (eachObject = va_arg(argumentList, id)) {
+			[paramsAndValues setObject:eachObject forKey:[params objectAtIndex:++i]];	
+		}
 		va_end(argumentList);
 	}
-	NSString *resourceIdentifier = @"?";
-	int i = 0;
-	for (NSString *parameter in params) {
-		resourceIdentifier = [resourceIdentifier stringByAppendingFormat:@"%@=%@&", [parameter lowercaseString], [paramsValues objectAtIndex:i]];	
-		i++;
-	}
-	resourceIdentifier = [resourceIdentifier substringToIndex:[resourceIdentifier length] - 1];
+	NSString *resourceIdentifier = [self queryStringFromDictionary:paramsAndValues];
 	return [self findById:resourceIdentifier];
 }
 
