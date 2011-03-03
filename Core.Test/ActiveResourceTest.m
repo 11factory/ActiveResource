@@ -78,6 +78,14 @@ HttpRequestStubEngine *httpEngine;
 	STAssertEqualObjects(resource.value, @"good job", nil);
 }
 
+-(void) testCanFindAllResourceByDynamicsCriterias {
+	StringResource.representation = @"application/json";
+	[httpEngine stubUrl:@"http://foo.com/string_resources/?o1=A&o2=B" toAnswer:@"[{\"value\":\"1\"},{\"value\":\"2\"}]" ofMimeType:@"application/json"];
+	NSArray *resources = [StringResource findAllByO1AndO2:@"A", @"B", nil];
+	STAssertEqualObjects(((StringResource *)[resources objectAtIndex:0]).value, @"1", nil);
+	STAssertEqualObjects(((StringResource *)[resources objectAtIndex:1]).value, @"2", nil);		
+}
+
 -(void)sleep:(float)seconds {
 	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:seconds]];	
 }

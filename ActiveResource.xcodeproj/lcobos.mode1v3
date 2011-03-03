@@ -409,14 +409,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>37DFFE80131D5E1A00054C66</string>
+										<string>37404231132033D70085FA9A</string>
 										<key>history</key>
 										<array>
 											<string>37C6D35E12881BFA0009BF4A</string>
 											<string>37C6D37612881DDB0009BF4A</string>
 											<string>37C6D45212882F2E0009BF4A</string>
 											<string>37C6D45612882F2E0009BF4A</string>
-											<string>3707960612940BB400B932F0</string>
 											<string>3707960812940BB400B932F0</string>
 											<string>37D888C4129A603500C81ECA</string>
 											<string>37B50E4F12A000BC001284EF</string>
@@ -432,7 +431,6 @@
 											<string>372D00A012F1D2F00060E620</string>
 											<string>372D00A612F1D4850060E620</string>
 											<string>372D00A912F1D4E70060E620</string>
-											<string>37F5CA3D12FB0E41008F65C7</string>
 											<string>37F5CA3E12FB0E41008F65C7</string>
 											<string>37F5CA4A12FB0E69008F65C7</string>
 											<string>37DFFC87131CFF6900054C66</string>
@@ -443,8 +441,10 @@
 											<string>37DFFCC7131D03FB00054C66</string>
 											<string>37DFFD97131D26CE00054C66</string>
 											<string>37DFFE13131D581900054C66</string>
-											<string>37DFFE3E131D5B5700054C66</string>
-											<string>37DFFE7F131D5E1A00054C66</string>
+											<string>37DFFEA6131D612D00054C66</string>
+											<string>37DFFEBF131E347600054C66</string>
+											<string>3740422B132033B00085FA9A</string>
+											<string>37404230132033D70085FA9A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -502,9 +502,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>37DFFE81131D5E1A00054C66</string>
+				<string>3740422E132033B00085FA9A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>37DFFE82131D5E1A00054C66</string>
+				<string>3740422F132033B00085FA9A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -625,7 +625,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>320691738.96154898</real>
+	<real>320877527.765055</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -642,9 +642,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>37C6D2B31288113D0009BF4A</string>
-		<string>/Users/lcobos/Developpement/xcode-projects/ActiveResource/ActiveResource.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 114 1280 664 0 0 1280 778 </string>
@@ -726,7 +724,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>37C6D2B31288113D0009BF4A</string>
-				<string>37DFFE5C131D5C4A00054C66</string>
+				<string>37404224132031640085FA9A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

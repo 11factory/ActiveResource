@@ -82,13 +82,17 @@ NSMutableDictionary *resourcesConfiguration;
 	return [self buildResourceObjectFromDictionnary:[response getAsKeyValues]];
 }
 
-+(NSArray *) findAll {
++(NSArray *) findAllAtUrl:(NSString *)url {
 	NSMutableArray *results = [NSMutableArray array];
-	HttpResponse *response = [self getResponseForUrl:[self fullResourcePath]];
+	HttpResponse *response = [self getResponseForUrl:url];
 	for (NSDictionary *rawItem in [response getAsArrayOfkeyValues]) {
 		[results addObject:[self buildResourceObjectFromDictionnary:rawItem]];
 	}
 	return results;
+}
+
++(NSArray *) findAll {
+	return [self findAllAtUrl:[self fullResourcePath]];
 }
 
 +(void) findAllAndCallback:(ArrayCallback)callback {
@@ -127,6 +131,7 @@ NSMutableDictionary *resourcesConfiguration;
 +(NSArray *) parameterNamesInSelector:(SEL) selector {
 	NSString *selectorName = NSStringFromSelector(selector);
 	selectorName = [selectorName stringByReplacingOccurrencesOfString:@"findBy" withString:@""];
+	selectorName = [selectorName stringByReplacingOccurrencesOfString:@"findAllBy" withString:@""];
 	selectorName = [selectorName stringByReplacingOccurrencesOfString:@":" withString:@""];
 	return [selectorName componentsSeparatedByString:@"And"];
 }
@@ -157,9 +162,33 @@ static id dynamicFindBy(id self, SEL selector, id firstParamValue, ...) {
 	return [self findById:resourceIdentifier];
 }
 
+
+static id dynamicFindAllBy(id self, SEL selector, id firstParamValue, ...) {
+	NSArray *params = [self parameterNamesInSelector:selector];
+	NSMutableDictionary *paramsAndValues = [NSMutableDictionary dictionary];
+	id eachObject;
+	va_list argumentList;
+	if (firstParamValue) {
+		int i = 0;
+		[paramsAndValues setObject:firstParamValue forKey:[params objectAtIndex:i]];
+		va_start(argumentList, firstParamValue);
+		while (eachObject = va_arg(argumentList, id)) {
+			[paramsAndValues setObject:eachObject forKey:[params objectAtIndex:++i]];	
+		}
+		va_end(argumentList);
+	}
+	NSString *resourceIdentifier = [self queryStringFromDictionary:paramsAndValues];
+	return [self findAllAtUrl:[self fullResourcePathForIdentifier:resourceIdentifier]];
+}
+
 + (BOOL)resolveClassMethod:(SEL)selector {
 	Class metaClass = objc_getMetaClass([NSStringFromClass([self class]) UTF8String]);
-	class_addMethod(metaClass, selector, (IMP)dynamicFindBy, "v@:@");
+	NSRange typeOfRequest = [NSStringFromSelector(selector) rangeOfString:@"findBy"];
+	if (typeOfRequest.length > 0) {
+		class_addMethod(metaClass, selector, (IMP)dynamicFindBy, "v@:@");
+	}else {
+		class_addMethod(metaClass, selector, (IMP)dynamicFindAllBy, "v@:@");
+	}
 	return TRUE;
 }
 
