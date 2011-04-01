@@ -5,6 +5,8 @@ ActiveResource for IPhone is an implementation of the ActiveResource RAILS frame
 
 - findById
 - findAll
+- findBy[any property]
+- findAllBy[any property]
 - save
 
 # Sample
