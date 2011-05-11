@@ -28,10 +28,12 @@
 
 -(NSArray *) getAsArrayOfkeyValues {
 	NSMutableArray *itemsFound = [NSMutableArray array];
-	NSString *stringToInspect = [self.responseContent substringFromIndex:1];
-	for (NSTextCheckingResult *match in [self matchForPattern:@"\\{(.+?)\\}" onString:stringToInspect]) {
-		NSString *elementAsString = [stringToInspect substringWithRange:[match rangeAtIndex:1]];
-		[itemsFound addObject:[self keyValuesForString:elementAsString]];
+	if ([self.responseContent length] > 1) {
+		NSString *stringToInspect = [self.responseContent substringFromIndex:1];
+		for (NSTextCheckingResult *match in [self matchForPattern:@"\\{(.+?)\\}" onString:stringToInspect]) {
+			NSString *elementAsString = [stringToInspect substringWithRange:[match rangeAtIndex:1]];
+			[itemsFound addObject:[self keyValuesForString:elementAsString]];
+		}
 	}
 	return itemsFound;
 }

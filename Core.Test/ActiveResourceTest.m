@@ -86,6 +86,13 @@ HttpRequestStubEngine *httpEngine;
 	STAssertEqualObjects(((StringResource *)[resources objectAtIndex:1]).value, @"2", nil);		
 }
 
+-(void) testReturnNilWhenNoDataAvailable {
+	StringResource.representation = @"application/json";
+	[httpEngine stubUrl:@"http://foo.com/string_resources/?o1=A&o2=B" toAnswer:@"" ofMimeType:@"application/json"];
+	StringResource *resource = [StringResource findByO1AndO2:@"A", @"B", nil];
+	STAssertNil(resource, nil);
+}
+
 -(void)sleep:(float)seconds {
 	[[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:seconds]];	
 }

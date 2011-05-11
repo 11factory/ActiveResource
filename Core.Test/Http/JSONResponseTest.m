@@ -20,4 +20,10 @@ JSONResponse *jsonResponse;
 	jsonResponse.responseContent = @"{\"foo\":[{\"@a1\": \"v1\"},{\"a2\":\"v2\"}]\n";
 	STAssertEqualObjects([jsonResponse getAsArrayOfkeyValues], expectedObjects, nil);
 }
+
+- (void) testSupportEmptyJSON {
+	jsonResponse.responseContent = @"";
+	STAssertEqualObjects([jsonResponse getAsArrayOfkeyValues], [NSArray array], nil);
+}
+
 @end

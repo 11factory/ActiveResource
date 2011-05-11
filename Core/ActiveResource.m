@@ -66,6 +66,9 @@ NSMutableDictionary *resourcesConfiguration;
 }
 
 + (id) buildResourceObjectFromDictionnary: (NSDictionary *) targetObjectAsKeyValues  {
+	if ([targetObjectAsKeyValues count] == 0) {
+		return nil;
+	}	
 	ReflectedInstance *reflectedInstance = [ReflectedInstance forClass:self];
 	for (NSString *propertyName in [targetObjectAsKeyValues allKeys]) {	
 		[reflectedInstance injectValue:[targetObjectAsKeyValues objectForKey:propertyName] intoPropertyNamed:propertyName];

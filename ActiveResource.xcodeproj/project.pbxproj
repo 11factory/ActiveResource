@@ -125,8 +125,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				372D007812F1D2E00060E620 /* Core.Test */,
-				372D001512F1D1850060E620 /* Core */,
+				372D007812F1D2E00060E620 /* ActiveResource.Test */,
+				372D001512F1D1850060E620 /* ActiveResource */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				37C6D2C81288116F0009BF4A /* IntegrationTests-Info.plist */,
@@ -134,7 +134,7 @@
 			name = CustomTemplate;
 			sourceTree = "<group>";
 		};
-		372D001512F1D1850060E620 /* Core */ = {
+		372D001512F1D1850060E620 /* ActiveResource */ = {
 			isa = PBXGroup;
 			children = (
 				372D001612F1D1850060E620 /* ActiveResource.h */,
@@ -144,6 +144,7 @@
 				372D002712F1D1850060E620 /* Reflection */,
 				372D003612F1D1850060E620 /* Util */,
 			);
+			name = ActiveResource;
 			path = Core;
 			sourceTree = "<group>";
 		};
@@ -202,7 +203,7 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
-		372D007812F1D2E00060E620 /* Core.Test */ = {
+		372D007812F1D2E00060E620 /* ActiveResource.Test */ = {
 			isa = PBXGroup;
 			children = (
 				372D007912F1D2E00060E620 /* ActiveResourceTest.h */,
@@ -213,6 +214,7 @@
 				372D008A12F1D2E00060E620 /* Reflection */,
 				372D008F12F1D2E00060E620 /* Util */,
 			);
+			name = ActiveResource.Test;
 			path = Core.Test;
 			sourceTree = "<group>";
 		};
